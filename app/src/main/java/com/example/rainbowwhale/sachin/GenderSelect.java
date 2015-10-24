@@ -117,7 +117,7 @@ public class GenderSelect extends Activity {
                     Random r = new Random();
                     int i1;
                     for(int idx = 0;idx<16;idx++){
-                        i1 = r.nextInt(UL_male.lengthUser(0)-idx);
+                        i1 = r.nextInt(UL_male.lengthUser(0));
                         if(UL_game==null){
                             UL_game = new User(UL_male.getUser(i1));
                             UL_male.DropOut(i1);
@@ -145,7 +145,7 @@ public class GenderSelect extends Activity {
                 Random r = new Random();
                 int i1;
                 for(int idx = 0;idx<16;idx++){
-                    i1 = r.nextInt(UL_female.lengthUser(0)-idx);
+                    i1 = r.nextInt(UL_female.lengthUser(0));
                     if(UL_game==null){
                         UL_game = new User(UL_female.getUser(i1));
                         UL_female.DropOut(i1);
@@ -173,7 +173,7 @@ public class GenderSelect extends Activity {
                     Random r = new Random();
                     int i1;
                     for(int idx = 0;idx<16;idx++){
-                        i1 = r.nextInt(UL.lengthUser(0)-idx);
+                        i1 = r.nextInt(UL.lengthUser(0));
                         if(UL_game==null){
                             UL_game = new User(UL.getUser(i1));
                             UL.DropOut(i1);
