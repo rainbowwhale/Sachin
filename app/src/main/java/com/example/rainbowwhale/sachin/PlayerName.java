@@ -33,7 +33,6 @@ public class PlayerName extends Activity {
         mPref = getSharedPreferences("PrefPlayer", 0);
         playerName = mPref.getString("pName", "");
         playerNick = mPref.getString("pNick", "");
-        Log.d("pref", "On Create");
 
         et_Name.setText(playerName);
         et_Nick.setText(playerNick);

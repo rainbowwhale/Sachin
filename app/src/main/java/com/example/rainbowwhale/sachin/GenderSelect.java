@@ -87,6 +87,7 @@ public class GenderSelect extends Activity {
             e.printStackTrace();
         }
 
+        //유저리스트 2개를 더 만듬: 남자유저리스트, 여자유저리스트
         for(int idx=0;idx<UL.lengthUser(0);idx++){
             if(UL.getUser(idx).getGender()==0){
                 if(UL_male==null){

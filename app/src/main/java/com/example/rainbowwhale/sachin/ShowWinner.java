@@ -21,7 +21,7 @@ public class ShowWinner extends Activity {
         setContentView(R.layout.activity_show_winner);
 
         Intent intentWinner = getIntent();
-        Winner = intentWinner.getParcelableExtra("userList");
+        Winner = intentWinner.getParcelableExtra("winner");
         if(Winner == null){
             Toast.makeText(this, "User List is Null", Toast.LENGTH_SHORT).show();
             return;

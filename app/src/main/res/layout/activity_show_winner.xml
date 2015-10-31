@@ -24,7 +24,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="당신의 사친입니다!!!"
-                android:id="@+id/Result_textView_Title" />
+                android:id="@+id/Result_textView_Title"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -36,8 +40,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/Result_textView_Name" />
+                android:text="Name"
+                android:id="@+id/Result_textView_Name"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -49,8 +57,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/Result_textView_Nick" />
+                android:text="Nick"
+                android:id="@+id/Result_textView_Nick"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,8 +75,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Text"
-                android:id="@+id/Result_textView_Desc" />
+                android:text="Description"
+                android:id="@+id/Result_textView_Desc"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -76,7 +92,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
+                android:text="끝내기"
                 android:id="@+id/Result_button_Finish" />
         </LinearLayout>
     </LinearLayout>
