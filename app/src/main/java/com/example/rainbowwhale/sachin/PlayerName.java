@@ -55,6 +55,7 @@ public class PlayerName extends Activity {
                     intentPlayerName.putExtra("playerName", playerName);
                     intentPlayerName.putExtra("playerNick", playerNick);
                     startActivity(intentPlayerName);
+                    finish();
                 }
             }
         });

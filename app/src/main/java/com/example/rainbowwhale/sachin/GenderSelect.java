@@ -132,6 +132,7 @@ public class GenderSelect extends Activity {
                 Intent intentGenderSelect = new Intent(GenderSelect.this, Game.class);
                 intentGenderSelect.putExtra("userList", UL_game);
                 startActivity(intentGenderSelect);
+                finish();
             }
         });
 
@@ -160,6 +161,7 @@ public class GenderSelect extends Activity {
                 Intent intentGenderSelect = new Intent(GenderSelect.this, Game.class);
                 intentGenderSelect.putExtra("userList", UL_game);
                 startActivity(intentGenderSelect);
+                finish();
             }
         });
 
@@ -187,6 +189,7 @@ public class GenderSelect extends Activity {
                 Intent intentGenderSelect = new Intent(GenderSelect.this, Game.class);
                 intentGenderSelect.putExtra("userList", UL_game);
                 startActivity(intentGenderSelect);
+                finish();
             }
         });
     }

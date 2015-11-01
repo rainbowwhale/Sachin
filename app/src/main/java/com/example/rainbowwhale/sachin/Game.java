@@ -122,6 +122,7 @@ public class Game extends Activity {
                         Intent intentGameL = new Intent(Game.this, ShowWinner.class);
                         intentGameL.putExtra("winner", UL_Game);
                         startActivity(intentGameL);
+                        finish();
                     }
                     else if(rb_Right.isChecked())
                     {
@@ -129,6 +130,7 @@ public class Game extends Activity {
                         Intent intentGameL = new Intent(Game.this, ShowWinner.class);
                         intentGameL.putExtra("winner", UL_Game);
                         startActivity(intentGameL);
+                        finish();
                     }
                     else{
                         Toast.makeText(getApplicationContext(),"반드시 한명을 선택해주세요", Toast.LENGTH_SHORT).show();
